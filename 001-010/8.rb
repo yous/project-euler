@@ -3,12 +3,12 @@ num = 73167176531330624919225119674426574742355349194934969835203127745063262395
 buffer = []
 max = 0
 num.to_s.chars.each do |v|
-	buffer << v.to_i
-	if buffer.length == 5
-		prod = buffer.reduce(:*)
-		max = prod if max < prod
-		buffer.shift
-	end
+  buffer << v.to_i
+  if buffer.length == 5
+    prod = buffer.reduce(:*)
+    max = prod if max < prod
+    buffer.shift
+  end
 end
 
 puts max
