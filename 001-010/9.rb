@@ -1,3 +1,5 @@
+# Special Pythagorean triplet
+
 squares = (3..499).map {|v| v * v }
 squares.length.times.each do |idx_a|
   (idx_a + 1 ... squares.length).each do |idx_b|

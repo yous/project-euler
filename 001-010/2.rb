@@ -1,3 +1,5 @@
+# Even Fibonacci numbers
+
 fib = Enumerator.new do |yielder|
   a = b = 1
   loop do

@@ -1,3 +1,5 @@
+# Largest palindrome product
+
 require 'prime'
 
 (100..999).to_a.reverse.each do |num|
