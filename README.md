@@ -1,4 +1,5 @@
-euler
-=====
+# Project Euler
 
-Project Euler http://projecteuler.net
+Solve [Project Euler][] in Ruby.
+
+[Project Euler]: http://projecteuler.net
